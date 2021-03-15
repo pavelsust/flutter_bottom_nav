@@ -8,6 +8,11 @@ class TestScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(
+          title: Text(
+            "Test Screen"
+          ),
+        ),
         body: Container(
           child: Text(
             "Test Screen"

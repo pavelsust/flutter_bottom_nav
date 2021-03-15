@@ -97,7 +97,7 @@ class _DashboardScreen extends State<DashboardScreen>  with TickerProviderStateM
       child: Scaffold(
         body: PageTransitionSwitcher(
           child: screens[this.index],
-          duration: Duration(microseconds: 400),
+          duration: Duration(microseconds: 2000),
           transitionBuilder: (child , animation , secondaryAnimation) => FadeThroughTransition(
             animation: animation,
             secondaryAnimation: secondaryAnimation,
